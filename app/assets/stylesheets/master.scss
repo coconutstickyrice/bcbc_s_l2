@@ -1,3 +1,7 @@
+/* font from Google */
+/*@import url('https://fonts.googleapis.com/css?family=Oswald'); */
+
+
 @import "bootstrap";
 
 /* clear??  */
@@ -43,6 +47,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'eurocineregular', sans-serif;
+  font-weight: bold;
 }
 
 /* border to the navbar */ 
@@ -53,4 +59,15 @@ header {
 /* make the horizontal rule clear out the Bootstrap columns */ 
 hr {
   clear:both;
+}
+
+/*L9: set the font to be Helvetica and adjust the weight and letter spacing. */
+h1 {
+  font-family: 'eurocineregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+} 
+
+h2 {
+  font-family: 'eurocineregular', sans-serif;
 }
