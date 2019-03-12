@@ -84,3 +84,8 @@ h2 {
   text-align: right;
   font-size: 10px;
 }
+
+/* L12 to remove line under URL */
+.logo:hover {
+  text-decoration: none;
+}
