@@ -90,7 +90,30 @@ h2 {
   text-decoration: none;
 }
 
-/* L15 to add font for About */
+/* L15 to add font for About */ 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+/* L17 for media query */ 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+/* L17 for modal style */ 
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+/* L17 for header style */ 
+h2 span {
+  color: #dddddd;
+  font-family: 'eurocineregular', sans-serif;
+}
+
+/* L17 for background color when text is highlighted */ 
+::selection {
+  background-color: #f84342;
 }
